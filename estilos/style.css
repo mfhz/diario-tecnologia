@@ -5,4 +5,32 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+body header {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  body header figure {
+    padding-left: 5em; }
+  body header nav {
+    padding-right: 5em; }
+    body header nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      body header nav ul li {
+        margin-right: 3em;
+        list-style: none; }
+        body header nav ul li a {
+          text-decoration: none; }
+          body header nav ul li a:hover {
+            color: saddlebrown; }
+
 /*# sourceMappingURL=style.css.map */
