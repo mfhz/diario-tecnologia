@@ -40,4 +40,32 @@ body {
         }
     }
 
+    .main-new {
+        position: relative;
+
+        .figure-main-new {
+            text-align: center;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        h1 {
+            position: absolute;
+            width: 50%;
+            color: #ffffff;
+            font-size: 3em;
+            bottom: 10%;
+            left: 15%;
+        }
+
+        .tag-menu-new {
+            position: absolute;
+            color: #ffffff;
+            top: 5%;
+            right: 12%;
+        }
+    }
+
 }
