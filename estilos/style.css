@@ -32,5 +32,23 @@ body header {
           text-decoration: none; }
           body header nav ul li a:hover {
             color: saddlebrown; }
+body .main-new {
+  position: relative; }
+  body .main-new .figure-main-new {
+    text-align: center; }
+    body .main-new .figure-main-new img {
+      width: 80%; }
+  body .main-new h1 {
+    position: absolute;
+    width: 50%;
+    color: #ffffff;
+    font-size: 3em;
+    bottom: 10%;
+    left: 15%; }
+  body .main-new .tag-menu-new {
+    position: absolute;
+    color: #ffffff;
+    top: 5%;
+    right: 12%; }
 
 /*# sourceMappingURL=style.css.map */
