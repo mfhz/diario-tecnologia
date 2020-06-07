@@ -71,7 +71,8 @@ body section {
                 justify-content: space-between;
         margin-top: 1em; }
         body section .section-news .section-category .container-box-news .box-news img {
-          display: block; }
+          display: block;
+          width: 80%; }
         body section .section-news .section-category .container-box-news .box-news .new-tag {
           display: block;
           margin: 1em 0; }
