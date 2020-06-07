@@ -13,14 +13,14 @@ body {
         height: 60px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center;        
+        padding: 0 5%;
 
         figure {
-            padding-left: 5em;
+
         }
 
         nav {
-            padding-right: 5em;
             
             ul {
                 display: flex;
@@ -31,10 +31,15 @@ body {
 
                     a {
                         text-decoration: none;
+                        font-size: 1.2em;
                         &:hover {
                             color: saddlebrown;
                         }
                     }
+                }
+
+                .list-rigth {
+                    margin-right: 0;
                 }
             }
         }

@@ -16,22 +16,22 @@ body header {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
-  body header figure {
-    padding-left: 5em; }
-  body header nav {
-    padding-right: 5em; }
-    body header nav ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; }
-      body header nav ul li {
-        margin-right: 3em;
-        list-style: none; }
-        body header nav ul li a {
-          text-decoration: none; }
-          body header nav ul li a:hover {
-            color: saddlebrown; }
+          align-items: center;
+  padding: 0 5%; }
+  body header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    body header nav ul li {
+      margin-right: 3em;
+      list-style: none; }
+      body header nav ul li a {
+        text-decoration: none;
+        font-size: 1.2em; }
+        body header nav ul li a:hover {
+          color: saddlebrown; }
+    body header nav ul .list-rigth {
+      margin-right: 0; }
 body .main-new {
   position: relative; }
   body .main-new .figure-main-new {
