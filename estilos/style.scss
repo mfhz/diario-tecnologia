@@ -346,3 +346,62 @@ body {
     }
 
 }
+
+@media screen and (max-width: 1024px) {
+
+    body {
+
+        header {
+
+            nav {
+
+                ul {
+
+                    li {
+                        margin-right: 1.7em;
+                    }
+                }
+            }
+        }
+
+        main {
+
+            .main-new {
+
+                h1 {
+                    font-size: 2em;
+                    width: 40%;
+                }
+
+            }
+
+            section {
+
+                .section-news {
+
+                    .section-category {
+
+                        .container-box-news {
+                            margin-top: 3em;
+
+                            .box-news {
+
+                                .title-news {
+                                    font-size: 1em;
+                                }
+
+                                .publication-news {
+                                    align-items: baseline;
+                                    
+                                    p {
+                                        font-size: .8em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

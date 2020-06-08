@@ -168,5 +168,21 @@ body footer {
     text-align: end; }
     body main section aside .box-aside figure img {
       width: 80%; } }
+@media screen and (max-width: 1024px) {
+  body header nav ul li {
+    margin-right: 1.7em; }
+  body main .main-new h1 {
+    font-size: 2em;
+    width: 40%; }
+  body main section .section-news .section-category .container-box-news {
+    margin-top: 3em; }
+    body main section .section-news .section-category .container-box-news .box-news .title-news {
+      font-size: 1em; }
+    body main section .section-news .section-category .container-box-news .box-news .publication-news {
+      -webkit-box-align: baseline;
+          -ms-flex-align: baseline;
+              align-items: baseline; }
+      body main section .section-news .section-category .container-box-news .box-news .publication-news p {
+        font-size: .8em; } }
 
 /*# sourceMappingURL=style.css.map */
