@@ -18,22 +18,67 @@ body header {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 5%; }
-  body header nav input {
-    display: none; }
-  body header nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    body header nav ul li {
-      margin-right: 3em;
-      list-style: none; }
-      body header nav ul li a {
-        text-decoration: none;
-        font-size: 1.2em; }
-        body header nav ul li a:hover {
-          color: saddlebrown; }
-    body header nav ul .list-rigth {
-      margin-right: 0; }
+  body header nav {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+    body header nav input {
+      display: none; }
+    body header nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      body header nav ul li {
+        margin-right: 3em;
+        list-style: none; }
+        body header nav ul li a {
+          text-decoration: none;
+          font-size: 1.2em; }
+          body header nav ul li a:hover {
+            color: saddlebrown; }
+      body header nav ul .list-rigth {
+        margin-right: 0; }
+  body header .inp-section {
+    border: 1px solid #21242b;
+    border-radius: 24px;
+    height: 44px;
+    width: 584px;
+    z-index: 3;
+    background: white; }
+    body header .inp-section .container-inp-section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 8px 20px 0 18px;
+      padding-left: 20px; }
+      body header .inp-section .container-inp-section .img-search {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2; }
+        body header .inp-section .container-inp-section .img-search button {
+          width: 25px; }
+          body header .inp-section .container-inp-section .img-search button a {
+            display: block;
+            width: inherit;
+            height: 28px;
+            background-image: url("../images/search.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center; }
+        body header .inp-section .container-inp-section .img-search img {
+          margin: auto;
+          margin-top: 3px; }
+      body header .inp-section .container-inp-section .input-section {
+        width: 100%; }
+        body header .inp-section .container-inp-section .input-section input {
+          width: inherit;
+          line-height: 28px;
+          font-size: 16px;
+          margin: 0;
+          border: none;
+          padding: 0;
+          color: rgba(0, 0, 0, 0.87);
+          outline: none; }
 body .main-new {
   position: relative; }
   body .main-new .figure-main-new {

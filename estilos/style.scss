@@ -21,6 +21,7 @@ body {
         }
 
         nav {
+            order: 2;
 
             input {
                 display: none;
@@ -47,6 +48,63 @@ body {
                 }
             }
         }
+
+        .inp-section {
+            border: 1px solid #21242b;
+            border-radius: 24px;
+            height: 44px;
+            width: 584px;
+            z-index: 3;
+            background: white;
+            // margin-bottom: 30px;
+
+            .container-inp-section {
+                display: flex;
+                padding: 8px 20px 0 18px;
+                padding-left: 20px;
+
+                .img-search {
+                    order: 2;
+
+                    button {
+                        width: 25px;
+                        a {
+                            display: block;
+                            width: inherit;
+                            height: 28px;
+                            background-image: url('../images/search.png');
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+
+                        }
+                    }
+
+                    img {
+                        margin: auto;
+                        margin-top: 3px;
+                    }
+                }
+
+                .input-section {
+                    width: 100%;
+
+                    input {
+                        width: inherit;
+                        line-height: 28px;
+                        font-size: 16px;
+                        margin: 0;
+                        border: none;
+                        padding: 0;
+                        color: rgba(0, 0, 0, .87);
+                        outline: none;
+                    }
+                }
+            
+            }
+        }
+
+
     }
 
     .main-new {
