@@ -259,3 +259,90 @@ body {
     }
 
 }
+
+@media screen and (max-width: 1280px) {
+
+    body {
+
+        header {
+
+            nav {
+
+                ul {
+
+                    li {
+
+                        a {
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+
+            .main-new {
+
+                h1 {
+                    font-size: 2em;
+                    width: 40%;
+                }
+
+            }
+
+            section {
+
+                .section-news {
+
+                    .section-category {
+
+                        h2 {
+                            font-size: 1.5em;
+                        }
+
+                        .container-box-news {
+
+                            .box-news {
+
+                                .new-tag {
+                                    font-size: .8em;
+                                }
+
+                                .title-news {
+                                    font-size: 1.2em;
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+
+                aside {
+
+                    .box-aside {
+
+                        h3 {
+                            font-size: 2.5em;
+                        }
+
+                        p {
+                            width: 60%;
+                            font-size: .9em;
+                        }
+
+                        figure {
+                            text-align: end;
+
+                            img {
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
