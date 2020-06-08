@@ -201,3 +201,61 @@ body {
     }
 
 }
+
+@media screen and (max-width: 1440px) {
+
+    body {
+
+        header {
+
+            nav {
+
+                ul {
+
+                    li {
+                        margin-right: 2em;
+
+                        a {
+                            font-size: 1.1em;
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+
+            .main-new {
+
+                h1 {
+                    font-size: 2.5em;
+                }
+
+            }
+
+            section {
+
+                .section-news {
+
+                    .section-category {
+
+                        h2 {
+                            font-size: 1.5em;
+                        }
+                    }
+                }
+
+                aside {
+
+                    .box-aside {
+
+                        p {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
