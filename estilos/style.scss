@@ -21,6 +21,10 @@ body {
         }
 
         nav {
+
+            input {
+                display: none;
+            }
             
             ul {
                 display: flex;

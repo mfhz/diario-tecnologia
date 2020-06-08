@@ -18,6 +18,8 @@ body header {
       -ms-flex-align: center;
           align-items: center;
   padding: 0 5%; }
+  body header nav input {
+    display: none; }
   body header nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
