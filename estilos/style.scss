@@ -405,3 +405,198 @@ body {
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    body {
+
+        header {
+            background: tomato;
+            position: relative;
+
+            nav {
+
+                input {
+                    display: block;
+                    width: 40px;
+                    height: 32px;
+                    opacity: 0;
+                    position: absolute;
+                    z-index: 2;
+                    &[type="checkbox"]:checked ~ ul {
+                        height: 250px;
+                    }
+                    &:checked ~ span {
+                        opacity: 1;
+                        transform: rotate(45deg) translate(2px, 1px);
+                    }
+                    &:checked ~ span:nth-last-child(3) {
+                        opacity: 0;
+                        transform: rotate(0deg) scale(0.2, 0.2);
+                    }
+                    &:checked ~ span:nth-last-child(2) {
+                        transform: rotate(-45deg) translate(1px, 0px);
+                    }
+                    
+                }
+
+                span {
+                    display: block;
+                    width: 25px;
+                    height: 2.5px;
+                    margin-bottom: 6.5px;
+                    // position: relative;
+                    background: #000;
+                    // z-index: 1;
+                    transform-origin: 3px 0px;
+                    &:first-child {
+                        transform-origin: 0% 0%;
+                    }
+                    &:nth-last-child(2) {
+                        transform-origin: 0% 100%;
+                    }
+                }
+
+                ul {
+                    display: inline-block;
+                    position: absolute;
+                    top: 60px;
+                    left: 0;
+                    width: 100%;
+                    height: 0;
+                    overflow: hidden;
+                    text-align: center;
+                    background: #444;
+                    z-index: 10;
+
+                    li {
+                        margin-right: 0;
+                        &:hover {
+                            background: #0b0b0b;
+                        }
+
+                        a {
+                            display: block;
+                            width: 100%;
+                            line-height: 50px;
+                            font-size: 1.7em;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+
+        main {
+
+            .main-new {
+
+                .figure-main-new {
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                h1 {
+                    width: 50%;
+                }
+
+                .tag-menu-new {
+                    right: 5%;
+                }
+            }
+
+            section {
+                margin: 0;
+                width: 100%;
+
+                .section-news {
+                    width: 60%;
+                    border-right: 1px solid #d5cece;
+
+                    .section-category {
+                        // margin-top: 1em;
+
+                        h2 {
+                            text-align: center;
+                        }
+
+                        .container-box-news {
+                            margin-top: 2em;
+                            padding-left: 20px;
+                            flex-wrap: wrap;
+
+                            .box-news {
+                                width: 50%;
+                                margin-bottom: 2em;
+                            }
+                        }
+
+                        button {
+                            margin-top: 0;
+                            margin-bottom: 5em;
+                        }
+
+                    }
+                }
+
+                aside {
+                    width: 40%;
+                    padding-left: 2%;
+                    
+                    h2 {
+                        text-align: center;
+                    }
+                    
+                    .btns-aside {
+                        margin-top: 2em;
+
+                        button {
+
+                            a {
+                                line-height: 30px;
+                            }
+                        }
+                    }
+
+                    .box-aside {
+                        flex-direction: column;
+                        position: relative;
+
+                        h3 {
+                            width: 10%;
+                            height: 102px;
+                            margin: 0;
+                        }
+
+                        p {
+                            position: absolute;
+                            left: 35px;
+                            top: 135px;
+                            width: 80%;
+                            padding: 0;
+                        }
+
+                        figure {
+                            order: -2;
+                            width: 100%;
+                            height: 127px;
+                            text-align: center;
+                            padding: 0;
+
+                            img {
+                                width: 70%;
+                            }
+                        }
+
+
+                    }
+
+
+                }
+            }
+        }
+    }
+
+}
