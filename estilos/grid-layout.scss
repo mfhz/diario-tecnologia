@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    header {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;        
+        padding: 0 5%;
+
+        figure {
+
+            a {
+                display: block;
+                line-height: 22px;
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        nav {
+            order: 2;
+
+            input {
+                display: none;
+            }
+            
+            ul {
+                display: flex;
+
+                li {
+                    margin-right: 3em;
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        font-size: 1.2em;
+                        &:hover {
+                            color: saddlebrown;
+                        }
+                    }
+                }
+
+                .list-rigth {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        .inp-section {
+            border: 1px solid #21242b;
+            border-radius: 24px;
+            height: 44px;
+            width: 584px;
+            z-index: 3;
+            background: white;
+            // margin-bottom: 30px;
+
+            .container-inp-section {
+                display: flex;
+                padding: 8px 20px 0 18px;
+                padding-left: 20px;
+
+                .img-search {
+                    order: 2;
+
+                    button {
+                        width: 25px;
+                        a {
+                            display: block;
+                            width: inherit;
+                            height: 28px;
+                            background-image: url('../images/search.png');
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+
+                        }
+                    }
+
+                    img {
+                        margin: auto;
+                        margin-top: 3px;
+                    }
+                }
+
+                .input-section {
+                    width: 100%;
+
+                    input {
+                        width: inherit;
+                        line-height: 28px;
+                        font-size: 16px;
+                        margin: 0;
+                        border: none;
+                        padding: 0;
+                        color: rgba(0, 0, 0, .87);
+                        outline: none;
+                    }
+                }
+            
+            }
+        }
+
+
+    }
+
+    main {
+
+        section {            
+            padding: 0 4em;
+
+            .search {
+                margin: 1em 0;
+                font-size: 3em;
+            }
+
+            article {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-column-gap: 1em;
+                grid-row-gap: 6em;
+                margin: 2em 0;
+    
+                // .box-grid {
+                //     border: 2px solid;
+                // }
+
+                .box-news {
+                    height: auto;
+                        
+                    img {
+                        display: block;
+                        width: 80%;
+                    }
+
+                    .new-tag {
+                        display: block;
+                        margin: 1em 0;
+                    }
+
+                    .title-news {
+                        display: block;
+                        font-size: 1.5em;
+                        width: 85%;
+                        margin-bottom: .5em;
+                    }
+
+                    .publication-news {
+                        display: flex;
+
+                        p {
+                            margin-right: 1em;
+                        }
+
+                        span {
+                            margin-right: 1em;
+                        }
+                    }
+
+                }
+    
+    
+            }
+        }
+
+    }
+
+    footer {
+        width: 100%;
+        height: 121px;
+        background: #000000;
+        color: #ffffff;
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 2.5%;
+    }
+}
